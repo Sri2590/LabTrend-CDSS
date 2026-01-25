@@ -45,6 +45,21 @@ The LabTrend-CDSS follows a layered web-based architecture with a browser-based 
 
 ![System Architecture](docs/architecture/SWE%20DA%201%20-%20LabTrend%20CDSS%20-%20Architecture%20Diagram.jpg)
 
+## Wireframes
+
+Low-fidelity wireframes for the LabTrend-CDSS were designed using Figma to represent the key user workflows and screens.
+
+### Figma Design Link
+[View Wireframes in Figma](https://www.figma.com/design/vWc7Mvyj4swaERw5jIVzfU/SWE-DA-1---LabTrend-CDSS---Figma-Frames?node-id=0-1&t=ihGUmnnwFzGDxQsj-1)
+
+### Exported Screens
+![Login](docs/wireframes/01-login.png)
+![Clinician Dashboard](docs/wireframes/02-clinician-dashboard.png)
+![Patient Summary](docs/wireframes/03-patient-summary.png)
+![Lab Entry](docs/wireframes/04-lab-entry-csv.png)
+![Lab Trends](docs/wireframes/05-lab-trends.png)
+![Risk Explanation](docs/wireframes/06-risk-explanation.png)
+
 ## Success Metrics
 - End-to-end workflow completion without errors
 - Accurate lab trend visualization
