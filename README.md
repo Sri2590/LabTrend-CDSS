@@ -53,12 +53,12 @@ Low-fidelity wireframes for the LabTrend-CDSS were designed using Figma to repre
 [View Wireframes in Figma](https://www.figma.com/design/vWc7Mvyj4swaERw5jIVzfU/SWE-DA-1---LabTrend-CDSS---Figma-Frames?node-id=0-1&t=ihGUmnnwFzGDxQsj-1)
 
 ### Exported Screens
-![Login](docs/wireframes/01-login.png)
-![Clinician Dashboard](docs/wireframes/02-clinician-dashboard.png)
-![Patient Summary](docs/wireframes/03-patient-summary.png)
-![Lab Entry](docs/wireframes/04-lab-entry-csv.png)
-![Lab Trends](docs/wireframes/05-lab-trends.png)
-![Risk Explanation](docs/wireframes/06-risk-explanation.png)
+![01 - Login](docs/wireframes/01%20-%20Login.png)
+![02 - Clinician Dashboard](docs/wireframes/02%20-%20Clinician%20Dashboard.png)
+![03 - Patient Summary](docs/wireframes/03%20-%20Patient%20Summary.png)
+![04 - Lab Entry and CSV Upload](docs/wireframes/04%20-%20Lab%20Entry%20and%20CSV%20Upload.png)
+![05 - Lab Trends](docs/wireframes/05%20-%20Lab%20Trends.png)
+![06 - Risk Explanation](docs/wireframes/06%20-%20Risk%20Explanation.png)
 
 ## Success Metrics
 - End-to-end workflow completion without errors
