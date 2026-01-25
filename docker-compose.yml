@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    container_name: labtrend-backend
+
+  frontend:
+    build: ./frontend
+    container_name: labtrend-frontend
