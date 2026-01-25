@@ -70,6 +70,22 @@ This project follows **GitHub Flow**.
 Example feature branches:
 - `feature/docker-setup`
 
+## Local Development Setup
+
+### Tools Used
+- GitHub
+- Docker Desktop
+- Docker Compose
+- Python 3.10
+- Node.js 18
+- Figma (Wireframes)
+- Draw.io (Architecture)
+
+### Quick Start – Local Development
+
+docker compose build
+docker compose up
+
 ## Success Metrics
 - End-to-end workflow completion without errors
 - Accurate lab trend visualization
