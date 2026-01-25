@@ -60,6 +60,32 @@ Low-fidelity wireframes for the LabTrend-CDSS were designed using Figma to repre
 ![05 - Lab Trends](docs/wireframes/05%20-%20Lab%20Trends.png)
 ![06 - Risk Explanation](docs/wireframes/06%20-%20Risk%20Explanation.png)
 
+## Branching Strategy
+
+This project follows **GitHub Flow**.  
+- The `main` branch contains stable code.
+- Feature development is done in separate branches.
+- Changes are merged back into `main` via pull requests.
+
+Example feature branches:
+- `feature/docker-setup`
+
+## Local Development Setup
+
+### Tools Used
+- GitHub
+- Docker Desktop
+- Docker Compose
+- Python 3.10
+- Node.js 18
+- Figma (Wireframes)
+- Draw.io (Architecture)
+
+### Quick Start – Local Development
+
+docker compose build
+docker compose up
+
 ## Success Metrics
 - End-to-end workflow completion without errors
 - Accurate lab trend visualization
