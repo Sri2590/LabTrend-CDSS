@@ -43,7 +43,7 @@ To provide a professional yet accessible clinical decision support platform that
 
 The LabTrend-CDSS follows a layered web-based architecture with a browser-based frontend, a backend REST API, persistent data storage, and containerized deployment.
 
-![System Architecture](docs/architecture/labtrend-cdss-architecture.png)
+![System Architecture](docs/architecture/SWE DA 1 - LabTrend CDSS - Architecture Diagram.jpg)
 
 ## Success Metrics
 - End-to-end workflow completion without errors
