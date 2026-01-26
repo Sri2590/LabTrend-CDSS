@@ -24,7 +24,7 @@ Required to interpret lab values over time rather than as isolated results.
 Risk Stratification Generation
 Required to provide early disease risk screening and decision support.
 
-👉 Justification:
+Justification:
 Without these features, the system cannot meet its primary objective of lab-based decision support.
 
 Should Have (Important but not blocking)
@@ -43,7 +43,7 @@ Important for traceability and accountability, especially in healthcare contexts
 Export Patient Summary Reports (PDF/Print)
 Useful for sharing and documentation but not essential for internal use.
 
-👉 Justification:
+Justification:
 The system can function without these, but overall quality and professionalism are reduced.
 
 Could Have (Enhancements if time permits)
@@ -59,7 +59,7 @@ Useful for admin insights but not essential for individual patient review.
 Anonymized Demo Mode
 Helpful for demonstrations but not required for functional correctness.
 
-👉 Justification:
+Justification:
 These features are value-adds and will be implemented only if time allows.
 
 Won’t Have (Explicitly out of scope for this version)
