@@ -41,24 +41,48 @@ To provide a professional yet accessible clinical decision support platform that
 
 ## System Architecture
 
-The LabTrend-CDSS follows a layered web-based architecture with a browser-based frontend, a backend REST API, persistent data storage, and containerized deployment.
+LabTrend-CDSS follows a layered client-server architecture using Controller, Service, and Repository layers. This separation ensures modularity, abstraction, low coupling, and maintainability. The system is containerized using Docker for consistent local development and optional cloud deployment.
 
-![System Architecture](docs/architecture/SWE%20DA%201%20-%20LabTrend%20CDSS%20-%20Architecture%20Diagram.jpg)
+### Updated High-Level Architecture (DA2)
 
-## Wireframes
+![Updated Architecture](docs/design/architecture/architecture.png)
 
-Low-fidelity wireframes for the LabTrend-CDSS were designed using Figma to represent the key user workflows and screens.
+The architecture consists of:
 
-### Figma Design Link
-[View Wireframes in Figma](https://www.figma.com/design/vWc7Mvyj4swaERw5jIVzfU/SWE-DA-1---LabTrend-CDSS---Figma-Frames?node-id=0-1&t=ihGUmnnwFzGDxQsj-1)
+- Frontend (React Web UI)
+- Backend API (Controller Layer)
+- Service Layer (Business Logic Modules)
+- Repository Layer (Data Access)
+- PostgreSQL Database
+- Docker-based deployment environment
 
-### Exported Screens
-![01 - Login](docs/wireframes/01%20-%20Login.png)
-![02 - Clinician Dashboard](docs/wireframes/02%20-%20Clinician%20Dashboard.png)
-![03 - Patient Summary](docs/wireframes/03%20-%20Patient%20Summary.png)
-![04 - Lab Entry and CSV Upload](docs/wireframes/04%20-%20Lab%20Entry%20and%20CSV%20Upload.png)
-![05 - Lab Trends](docs/wireframes/05%20-%20Lab%20Trends.png)
-![06 - Risk Explanation](docs/wireframes/06%20-%20Risk%20Explanation.png)
+## User Interface Design (DA2)
+
+The UI follows a role-based, modular layout with consistent navigation and structured content areas. Each screen has a single responsibility, ensuring high cohesion, clarity, and ease of use.
+
+### Updated Wireframes
+
+Wireframes are available in `docs/design/ui/`.
+
+Flow order:
+1. Login  
+2. Dashboard  
+3. Patient Profile  
+4. Risk Assessment  
+5. Lab Technician  
+6. Admin  
+
+![01 Login](docs/design/ui/01-login.png)
+![02 Dashboard](docs/design/ui/02-dashboard.png)
+![03 Patient Profile](docs/design/ui/03-patient-profile.png)
+![04 Risk Assessment](docs/design/ui/04-risk-assessment.png)
+![05 Lab Technician](docs/design/ui/05-lab-technician.png)
+![06 Admin](docs/design/ui/06-admin.png)
+
+### Figma Prototype
+
+The prototype demonstrates screen flow and interaction logic across roles.
+[https://your-updated-figma-link](https://www.figma.com/design/LF01LhhPHoeaoD8a2p4oR6/LabTrend-CDSS?node-id=0-1&t=RKLgKlm8iq5X1FJS-1)
 
 ## Branching Strategy
 
@@ -79,7 +103,7 @@ Example feature branches:
 - Python 3.10
 - Node.js 18
 - Figma (Wireframes)
-- Draw.io (Architecture)
+- Draw.io (Architecture & Design Diagrams)
 
 ### Quick Start – Local Development
 
@@ -104,3 +128,26 @@ docker compose up
 - Open-source technologies only
 - No diagnostic or treatment claims
 - Student-level development resources
+
+## Software Design Decisions
+
+The following design principles were applied during system refinement:
+
+- Layered architecture (Controller → Service → Repository) to separate concerns and reduce coupling.
+- Dedicated Risk Engine service to isolate clinical rule evaluation logic.
+- Repository pattern to abstract database operations.
+- Role-Based Access Control (RBAC) for secure and controlled access.
+- Docker containerization for consistent deployment and scalability.
+
+These decisions improve modularity, maintainability, extensibility, and architectural clarity, ensuring the system can evolve without structural disruption.
+
+## Design Documentation
+
+Detailed design artifacts are available in:
+
+`docs/design/`
+
+This includes:
+- Updated architecture diagrams
+- UI wireframes
+- Editable diagram source files
